@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         
         alerta.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         
+        // teste
         self.present(alerta, animated: true, completion: nil)
         
     }
